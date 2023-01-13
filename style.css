@@ -1,0 +1,45 @@
+body {
+    background: #e1e8e2;
+    display: flex; justify-content: center; align-items: center;
+    width: 100vw;
+    /* width:auto */
+    height: 50vh;
+    /* overflow-wrap: normal; */
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .Main {
+    color: rgb(81, 248, 15);
+    text-align: center;
+    background-color: #086769;
+    padding: 20px;
+    border: black;
+    border-radius: 15px ;
+    letter-spacing: 4px;
+  }
+    
+  #seconds, #tens {
+    font-size: 2em;
+  }
+  /* id has given here */
+  button {
+       border-radius: 15px;
+    background: #100a53;
+    border: solid 1px rgb(27, 48, 240);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    padding: 20px 15px;
+    width: 180px;
+    margin: 10px;
+    /* outline: none; */
+    outline-style: groove;
+    transition: all 0.2s ease-in-out;
+    color: rgba(174, 246, 230, 0.984);
+  }
+  /* when hovering over the buttons effect */
+  button:hover {
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+  }
